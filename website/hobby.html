@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A simple website to test my web developing skills">
+        <meta name="author" content="Daniel Fong">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="main.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <title>A reactive website to test my skills</title>
+
+
+    </head>
+
+    <body>
+        <header>
+                        <!--Navigation Bar-->
+            <nav class="navbar navbar-expand-lg fixed-top-sticky">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><i class="bi bi-fire" style="font-size: 3rem; color:rgb(225, 41, 99);"></i></a>
+
+
+ 
+
+                      <!--Toggle Down Meno-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hobby Page</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        
+                        
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html" style="color:rgb(225, 41, 99); font-size: 20px;">About Me</a>
+                        </li>
+                        <li>
+                          <a class="nav-link" href="hobby.html" style="color:rgb(225, 41, 99); font-size: 20px;">Hobbies</a>
+                        </li>
+                        
+                        <li>
+                          <a class="nav-link" href="music.html" style="color:rgb(225, 41, 99); font-size: 20px;">Music</a>
+                        </li>
+                        
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>  
+
+        <main class="container mt-5">
+          <div class="row justify-content-center">
+              <div class="col-6 mt-2 text-center">
+                  <h1>My Hobbies</h1>
+                  <p></p>
+
+              </div>
+
+          </div>
+          <br>
+          <div class="container-fluid bg-light mb-5" id="firstSec">
+            <div class="row justify-content-center animate__animated animate__fadeIn">
+              <div class="title1 text-center">
+                <h2>PC Building</h2>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid bg-dark py-3">
+            <div class="row animate__animated animate__fadeInDown text-align-center">
+              <p>I built my first PC when I was 20 year's old which is not that long ago.</p>
+              <p>I always wanted to build my own PC when ever since I was young due to my love for video games.</p>
+              
+            </div>
+            
+            
+            <div class="container-fluid">
+             <div class="row justify-content-center animate__animated animate__fadeInDown ">
+               <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                <div id="carouselpc" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/pc1.jpg" class="d-block w-100" alt="pc1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/pc4.jpg" class="d-block w-100" alt="pc2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/pc3.jpg" class="d-block w-100" alt="pc3">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        PC Specs
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>Proccessor: AMD 5 3600</p>
+                        <p>Graphics Card: GTX 1660 6GB</p>
+                        <p>Ram: Kinston Fury X 16gb 3200MHZ</p>
+                        <p>Storage: SSD-Western Digital Blue 1TB</p>
+                        <p>Power Supply: Corsair CXM 750W</p>
+                        <p>Case: NZXT H510</p>
+                      </div>
+                  </div>
+                
+             </div>
+             <br>
+            </div> 
+          </div>
+          </div>
+          </div>
+          </div>  
+
+          <div class="container-fluid bg-light mt-3" id="thirdSec">
+            <div class="row justify-content-center animate__animated animate__fadeIn">
+              <div class="title1 text-center">
+                <h2>Gaming</h2>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid bg-dark py-3" id="fithSec">
+            <div class="row animate__animated animate__slideInLeft">
+              
+  
+            </div>
+            
+            <div class="container-fluid">
+             <div class="row animate__animated animate__slideInLeft">
+               <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                 <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
+                   <div class="carousel-inner">
+                     <div class="carousel-item active">
+                       <img src="images/csgo.jpg" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                       <img src="images/bo2.jpg" class="d-block w-100" alt="...">
+                     </div>
+                     <div class="carousel-item">
+                       <img src="images/doom.jpg" class="d-block w-100" alt="...">
+                     </div>
+                   </div>
+                 </div>
+
+
+               </div>
+               <div class="uspcol-sm-12 col-md-6 col-lg-4">
+                <h3>First Person Shooter</h3>
+                 <p>When I first got into gaming I started out with FPS games.</p>
+                 <p>Over the years I started to explore other genres.</p>
+               </div>
+
+             </div>
+             <br>
+             <div class="row animate__animated animate__slideInRight">
+               
+
+             </div>
+
+             <div class="container-fluid">
+               <div class=" row justify-content-left-lg flex-lg-row-reverse flex-md-row-reverse animate__animated animate__fadeInRight">
+                 <div class="uspcol-sm-12 col-md-6 col-lg-4 p-3">
+
+                   <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
+                     <div class="carousel-inner">
+                       <div class="carousel-item active">
+                         <img src="images/dota2.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                         <img src="images/lol.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                         <img src="images/smite.jpg" class="d-block w-100" alt="...">
+                       </div>
+                     </div>
+                   </div>
+
+
+
+
+
+
+                 </div>
+                 <div class="uspcol-sm-4 col-md-6 col-lg-8">
+                  <h3>MOBA</h3>
+                   <p>MOBA's such as Dota 2 , League of Legends , Smite. I got into later on in life.</p>
+                   <p>My most played would be Dota 2 , since I started at 2013</p>
+                 </div>
+                 
+
+
+               </div>
+               <br>
+               <div class="row animate__animated animate__slideInLeft">
+                 
+                 <div class="container-fluid py-3">
+                   <div class="row animate__animated animate__slideInLeft">
+                     <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                       <div id="carousel10" class="carousel slide" data-bs-ride="carousel">
+                         <div class="carousel-inner">
+                           <div class="carousel-item active">
+                             <img src="images/w4.jpg" class="d-block w-100" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="images/sr.jpg" class="d-block w-100" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="images/er.jpg" class="d-block w-100" alt="...">
+                           </div>
+                         </div>
+                       </div>
+
+
+           
+                     </div>
+                     <div class="uspcol-sm-12 col-md-6 col-lg-4">
+                      <h3>RPG</h3>
+                       <p>RPG's where game's that I sometimes would pick up like Skyrim , Elden Ring , The Wither and many more.</p>
+                     </div>
+
+                   </div>
+
+                 </div>
+
+               </div>
+
+
+             </div>
+
+
+             
+           
+            </div>
+            
+
+
+
+
+
+
+
+
+
+            
+          </div>
+          <br>
+          <div class="container-fluid bg-light mt-3" id="tenthSec">
+            <div class="row justify-content-center animate__animated animate__fadeIn">
+              <div class="title1 text-center">
+                <h2>Anime</h2>
+              </div>
+            </div>
+
+            
+
+          </div>
+          <div class="container-fluid bg-dark">
+            <div class="row animate__animated animate__slideInLeft p-3">
+              <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                <div id="carousel20" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/mono.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/mono3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/mono4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="uspcol-sm-12 col-md-6 col-lg-4">
+               <h3>The Monogatori Series</h3>
+               <p>The plot centers on Koyomi Araragi, a third-year high school student who survives a vampire attack and finds himself helping girls involved with a variety of apparitions, deities, ghosts, beasts, spirits, and other supernatural phenomena, which often serve as proxies for their emotional and mental issues.</p>
+              </div>
+
+            </div>
+            <br>
+            <div class="row animate__animated animate__slideInRight">
+              
+
+            </div>
+
+            <div class="container-fluid">
+              <div class=" row justify-content-left-lg flex-lg-row-reverse flex-md-row-reverse">
+                <div class="uspcol-sm-12 col-md-6 col-lg-4 p-3">
+
+                  <div id="carousel13" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/tg4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/tg2.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/tg3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+                </div>
+                <div class="uspcol-sm-4 col-md-6 col-lg-8">
+                 <h3>Tokyo Ghoul</h3>
+                  <p>A college student is attacked by a ghoul, a being that feeds on human flesh. He later receives an organ transplant from the ghoul, becoming part monster himself.</p>
+                </div>
+                
+
+
+              </div>
+              <br>
+              <div class="row animate__animated animate__slideInLeft">
+                
+                <div class="container-fluid py-3">
+                  <div class="row animate__animated animate__slideInLeft">
+                    <div class="uspcol-sm-12 col-md-6 col-lg-4">
+
+                      <div id="carousel16" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/cv1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/cv2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/cv4.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+
+
+      
+                    </div>
+                    <div class="uspcol-sm-12 col-md-6 col-lg-4">
+                     <h3>Castlevania</h3>
+                     <p>When his wife is burned at the stake after being falsely accused of witchcraft, the vampire Count Vlad Dracula Țepeș declares all the people of Wallachia will pay with their lives. He summons an army of demons which overruns the country, causing the people to live lives of fear and distrust.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+
+          
+
+          
+
+
+
+      </main>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer-container bg-dark text-center text-white mt-4">
+            <!-- Grid container -->
+            <div class="row">
+              <!-- Section: Social media -->
+              <section class="mb-2">
+                <h6>Details</h6>
+                
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/David_Krane23" role="button"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://open.spotify.com/playlist/56JRtrKw3MLJxZnghRowBN?si=2b1e2b6e4fad43bb" role="button"
+                  ><i class="bi bi-spotify"></i
+                ></a>
+          
+                <a class="btn btn-outline-light btn-floating m-1" href="https://discord.com/channels/@me" role="button"
+                  ><i class="bi bi-discord"></i
+                ></a>
+          
+                
+          
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/DanielFong7" role="button"
+                  ><i class="bi bi-github"></i
+                ></a>
+
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center px-3 bg-dark" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white">Daniel Fong</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
